@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		/>
+		<title>Landing Page</title>
+	</head>
+	<body>
+		<header>
+			<div id="header-img">
+				<img src="images/product-landing-page-logo.png" class="logo" />
+			</div>
+			<nav id="nav-bar">
+				<ul class="unlist">
+					<li><a class="nav-link" href="#features">Features</a></li>
+					<li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+					<li><a class="nav-link" href="#pricing">Pricing</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<form id="center-text">
+			<h2>Handcrafted, home-made masterpieces</h2>
+			<input
+				class="input-email"
+				type="email"
+				required
+				name="email"
+				placeholder="Enter your email address"
+			/>
+			<input
+				class="input-btn"
+				type="button"
+				value="GET STARTED"
+				formaction="https://www.freecodecamp.com/email-submit"
+			/>
+		</form>
+
+		<section id="features">
+			<div id="icon-points">
+				<div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+				<div class="desc">
+					<h2>Premium Materials</h2>
+					<p>
+						Our trombones use the shiniest brass which is sourced locally. This
+						will increase the longevity of your purchase.
+					</p>
+				</div>
+			</div>
+
+			<div id="icon-points">
+				<div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+				<div class="desc">
+					<h2>Fast Shipping</h2>
+					<p>
+						We make sure you recieve your trombone as soon as we have finished
+						making it. We also provide free returns if you are not satisfied.
+					</p>
+				</div>
+			</div>
+
+			<div id="icon-points">
+				<div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+				<div class="desc">
+					<h2>Quality Assurance</h2>
+					<p>
+						For every purchase you make, we will ensure there are no damages or
+						faults and we will check and test the pitch of your instrument.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="how-it-works">
+			<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+				title="How it Works"
+				frameborder="0"
+				allowfullscreen
+			></iframe>
+		</section>
+
+		<section id="pricing">
+			<div id="trombone">
+				<div class="type"><p>TENOR TROMBONE</p></div>
+				<h2>$600</h2>
+				<ul class="trom-feats">
+					<li>Lorem ipsum.</li>
+					<li>Lorem ipsum.</li>
+					<li>Lorem ipsum dolor.</li>
+					<li>Lorem ipsum.</li>
+				</ul>
+				<input class="input-submit" type="button" value="SELECT" />
+			</div>
+
+			<div id="trombone">
+				<div class="type"><p>BASS TROMBONE</p></div>
+				<h2>$900</h2>
+				<ul class="trom-feats">
+					<li>Lorem ipsum.</li>
+					<li>Lorem ipsum.</li>
+					<li>Lorem ipsum dolor.</li>
+					<li>Lorem ipsum.</li>
+				</ul>
+				<input class="input-submit" type="button" value="SELECT" />
+			</div>
+
+			<div id="trombone">
+				<div class="type"><p>VALVE TROMBONE</p></div>
+				<h2>$1200</h2>
+				<ul class="trom-feats">
+					<li>Plays similar to a Trumpet</li>
+					<li>Great for Jazz Bands.</li>
+					<li>Lorem ipsum dolor.</li>
+					<li>Lorem ipsum.</li>
+				</ul>
+				<input class="input-submit" type="button" value="SELECT" />
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-link">
+				<a class="link" href="#">Privacy</a>
+				<a class="link" href="#">Terms</a>
+				<a class="link" href="#">Contact</a>
+
+				<p class="copyright">Copyright 2016, Original Trombones</p>
+			</div>
+		</footer>
+	</body>
+</html>
