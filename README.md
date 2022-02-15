@@ -36,7 +36,7 @@ Author
 Website - Tega Lucky-Fiakpa (https://heisenberg-3-columns.netlify.app/)
 Frontend Mentor - @tegxy(https://www.frontendmentor.io/profile/tegxy)
 Twitter - @tegxy(https://www.twitter.com/tegxy)
-Acknowledgments
 
+Acknowledgments
 KFC
 Victor Adeyemo
