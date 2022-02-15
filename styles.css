@@ -82,6 +82,9 @@ header {
 	align-items: center;
 }
 
+#center-text > h2 {
+	text-align: center;
+}
 @media (max-width: 800px) {
 	#center-text {
 		width: 90vw;
