@@ -22,7 +22,8 @@ What I learned Being that I'm still learning frontend development, I was able wo
 - Mixing units and using them at the appropriate time
 - Adding media queries
 - More knowledge on divs, their height and width
-- how to also use psuedo-classes and hover states
+- How to also use psuedo-classes and hover states
+- Making site compatile to other device resolutions
 
 There are still other things i need to learn and I'll still need to keep practicing.
 
